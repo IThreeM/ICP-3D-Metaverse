@@ -5,7 +5,7 @@ Welcome to the next frontier of the Internet: A decentralized, user-centric, 3D 
 The ICP 3D Metaverse (OIM) is not just a vision; it's live and operational on the Internet Computer. Our platform derives its name from the foundational belief that the Internet itself is already a Metaverse. OIM takes this vision further, creating a 3D Web experience where users can build, own, and navigate "Webspaces" — 3D Web pages that render interactive scenes right from their browsers.
 
 ### Try the OIM App
-[Experience OIM Live!](https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/)
+[Experience OIM Live!](Not Yet Live)
 
 ![Become part of the ICP 3D Metaverse](./resources/media/OpenInternetMetaverse_banner_impression.png)
 

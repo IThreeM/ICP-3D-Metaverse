@@ -305,7 +305,7 @@
                 <form on:submit|preventDefault={() => submitAddNeighborForm()}>
                     <input
                         bind:value={newNeighborUrl}
-                        placeholder="Input the URL of the new Neighbor here (e.g. https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/0)"
+                        placeholder="Input the URL of the new Neighbor here (e.g. Not Yet Live#/space/0)"
                         class="newNeighborUrlInput text-black font-bold"
                     />
                     {#if newNeighborUrl !== ""}

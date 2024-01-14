@@ -27,10 +27,10 @@
     console.log("response");
     console.log(response); */
     const iframeElement = document.createElement('iframe');
-    //iframeElement.src = 'https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/0';
+    //iframeElement.src = 'Not Yet Live#/space/0';
     iframeElement.style.height = "200px";
     iframeElement.style.width = "200px";
-    const url = "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/0";
+    const url = "Not Yet Live#/space/0";
     let response = await fetch(url);
     console.log("response");
     console.log(response);

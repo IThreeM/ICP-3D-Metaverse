@@ -54,7 +54,7 @@ Space Neighbors local testing with dummy entities:
       name: null,
       description: null,
       keywords: null,
-      externalId: "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/0",
+      externalId: "Not Yet Live#/space/0",
       entitySpecificFields: null,
       listOfEntitySpecificFieldKeys: null,
   };
@@ -68,7 +68,7 @@ Space Neighbors local testing with dummy entities:
       name: null,
       description: null,
       keywords: null,
-      externalId: "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/1",
+      externalId: "Not Yet Live#/space/1",
       entitySpecificFields: null,
       listOfEntitySpecificFieldKeys: null,
   };
@@ -82,7 +82,7 @@ Space Neighbors local testing with dummy entities:
       name: null,
       description: null,
       keywords: null,
-      externalId: "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/3",
+      externalId: "Not Yet Live#/space/3",
       entitySpecificFields: null,
       listOfEntitySpecificFieldKeys: null,
   };
@@ -96,7 +96,7 @@ Space Neighbors local testing with dummy entities:
       name: null,
       description: null,
       keywords: null,
-      externalId: "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/space/2",
+      externalId: "Not Yet Live#/space/2",
       entitySpecificFields: null,
       listOfEntitySpecificFieldKeys: null,
   };

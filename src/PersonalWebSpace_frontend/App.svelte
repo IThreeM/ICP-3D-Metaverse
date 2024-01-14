@@ -29,7 +29,7 @@
     "/defaultspace/0": DefaultRoom0,
     "/defaultspace/1": DefaultRoom1,
     "/defaultspace/2": DefaultRoom2,
-    "/spaces": Spaces, //e.g. URL: https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/#/spaces
+    "/spaces": Spaces, //e.g. URL: Not Yet Live#/spaces
     "/objtest": ObjTest,
     "/objaframe": ObjAframe,
     "/testroom": Testroom,

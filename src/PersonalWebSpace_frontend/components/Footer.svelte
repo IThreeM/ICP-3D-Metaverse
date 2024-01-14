@@ -47,7 +47,7 @@
       </ul>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><p>Powered by <a href='https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/' target='_blank' rel="noreferrer" class='underline'>ICP 3D Metaverse</a></span>
+    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><p>Powered by <a href='Not Yet Live' target='_blank' rel="noreferrer" class='underline'>ICP 3D Metaverse</a></span>
   </div>
 </footer>
 
