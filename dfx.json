@@ -1,0 +1,61 @@
+{
+  "canisters": {
+    "PersonalWebSpace_backend": {
+      "main": "src/PersonalWebSpace_backend/main.mo",
+      "type": "motoko"
+    },
+    "bebbprotocol": {
+      "type": "custom",
+      "candid": "src/integrations/BebbProtocol/bebb.did",
+      "wasm": "src/integrations/BebbProtocol/bebb.wasm",
+      "remote": {
+        "candid": "src/integrations/BebbProtocol/bebb.did",
+        "id": {
+          "ic": "pzrof-pyaaa-aaaai-acnha-cai",
+          "local": "br5f7-7uaaa-aaaaa-qaaca-cai",
+          "development": "tsmol-tqaaa-aaaag-abt2a-cai",
+          "testing": "t6nyb-faaaa-aaaal-qcbaa-cai"
+        }
+      }
+    },
+    "PersonalWebSpace_frontend": {
+      "dependencies": [
+        "PersonalWebSpace_backend"
+      ],
+      "frontend": {
+        "entrypoint": "dist/index.html"
+      },
+      "source": [
+        "dist/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "vessel sources",
+      "args": ""
+    }
+  },
+  "networks": {
+    "development": {
+      "providers": [
+        "https://icp0.io"
+      ],
+      "type": "persistent"
+    },
+    "testing": {
+      "providers": [
+        "https://icp0.io"
+      ],
+      "type": "persistent"
+    },
+    "alexStaging": {
+      "providers": [
+        "https://icp0.io"
+      ],
+      "type": "persistent"
+    }
+  },
+  "version": 1
+}
