@@ -15,7 +15,7 @@
 </div>
 
 <!-- Detailed Information about ICP 3D Metaverse -->
-<section id="oim-detail" class="intro-section-container intro-bg-alternate">
+<section id="IThreeM-detail" class="intro-section-container intro-bg-alternate">
   <h3 class="intro-section-header">The Vision of the ICP 3D Metaverse</h3>
   <img src="./FutureWebInitiative_OpenInternetMetaverse_img.png" alt="The Vision of the ICP 3D Metaverse" class="intro-detail-image">
   

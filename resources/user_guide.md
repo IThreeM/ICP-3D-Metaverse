@@ -4,8 +4,8 @@
 
 ## What can you do with it?
 ### Before you log in
-- Get a quick introduction to the ICP 3D Metaverse (OIM) app on the Landing page
-- Explore a few random Webspaces (3D Webpages) owned by OIM users on the “Explore” tab. If you like, you can also visit them (in a new tab) to get a better impression of what a Webspace is and to discover what the user displays in that particular one.
+- Get a quick introduction to the ICP 3D Metaverse (IThreeM) app on the Landing page
+- Explore a few random Webspaces (3D Webpages) owned by IThreeM users on the “Explore” tab. If you like, you can also visit them (in a new tab) to get a better impression of what a Webspace is and to discover what the user displays in that particular one.
 - Play around with different Webspaces you could create on the “Create” tab
   - Note that you need to log in to actually create the Webspace
   - You can preview how the Webspace would look once created
@@ -15,25 +15,25 @@
     - Alternatively, you can preview a Webspace with a 3D model hosted anywhere on the Web (and you’ve got access to) (just paste the URL to the 3D model into the input field)
     - Note that the 3D model needs to be stored or hosted as a glb file (ending of the file “.glb”) for the preview to work
 ### Log in
-- Ready to properly use the OIM app and own your own personal Webspaces?
+- Ready to properly use the IThreeM app and own your own personal Webspaces?
 - To create and own Webspaces, you need to log in
-- OIM offers several alternatives to do so
+- IThreeM offers several alternatives to do so
   - Plug
-    - This is a browser extension which also serves as a crypto wallet on the Internet Computer blockchain platform (which OIM is built upon)
+    - This is a browser extension which also serves as a crypto wallet on the Internet Computer blockchain platform (which IThreeM is built upon)
     - Please install the extension in your browser (if you click on Login and then Plug, you should be taken to where you can install it)
-    - Make sure it is enabled for the OIM page (should be by default)
+    - Make sure it is enabled for the IThreeM page (should be by default)
     - With the browser extension installed and enabled, click on Login and then Plug and a Plug popup should show up prompting you to log in
-    - Afterwards, the popup will ask you to confirm logging into the OIM app (and shows you which other software on the Internet Computer OIM is using for extra transparency)
-    - Confirm and you will be logged into the OIM app via Plug
+    - Afterwards, the popup will ask you to confirm logging into the IThreeM app (and shows you which other software on the Internet Computer IThreeM is using for extra transparency)
+    - Confirm and you will be logged into the IThreeM app via Plug
   - Stoic wallet
     - This is another wallet on the Internet Computer blockchain platform
     - To use it, you will need to create an account (your personal wallet) with them first
     - Click on Login and then Stoic to be taken to the Webpage where you can create your Stoic account
-    - Create a Stoic account and come back to the OIM app
-    - Click on Login and then Stoic, and in a new tab Stoic will ask you to confirm your login to the OIM app
-    - Confirm and you will be logged into the OIM app via Stoic
+    - Create a Stoic account and come back to the IThreeM app
+    - Click on Login and then Stoic, and in a new tab Stoic will ask you to confirm your login to the IThreeM app
+    - Confirm and you will be logged into the IThreeM app via Stoic
 ### After you’re logged in
-- Triumph, you’re logged into the OIM app! Can you feel how close you are to owning your personal Webspace and designing it the way you want to?
+- Triumph, you’re logged into the IThreeM app! Can you feel how close you are to owning your personal Webspace and designing it the way you want to?
 - To create your personal Webspace (3D Webpage), go to the “Create” tab
   - There, you’ve got several options to create a Webspace
   - For each of them, you can first preview how the Webspace would look once created and then confirm the creation
@@ -45,7 +45,7 @@
     - You can first preview a Webspace with a 3D model you have on your device (just click on “Choose File” to select the 3D model file to get started) and then create the Webspace with your 3D model if you like it (just click “Create This Space!” which appears under the preview of the selected file)
     - Alternatively, you can first preview a Webspace with a 3D model hosted anywhere on the Web (and you’ve got access to) (just paste the URL to the 3D model into the input field) and then create the Webspace with your 3D model if you like it (just click “Create This Space!” which appears under the preview of the pasted URL)
     - Note that the 3D model needs to be stored or hosted as a glb file (ending of the file “.glb”) for the preview (and creation) to work
-- Let’s Go! You’ve got yourself your first personal Webspace! Welcome to the OIM community and welcome to the 3D Web!
+- Let’s Go! You’ve got yourself your first personal Webspace! Welcome to the IThreeM community and welcome to the 3D Web!
 - You can view your Webspaces under the “My Spaces” tab
   - Click on “My Spaces” and you’ll be taken to a section that lists all the Webspaces you own
   - You can see some details there for each Webspace
@@ -80,6 +80,6 @@
       - As a list of Neighbors
       - Within the Webspace by clicking on the left-bottom corner button “Open Menu” and on “Load Neighbors” there for the neighbors to be visualized
     - See the Webspace’s info (including its name, description and also some info about its owner)
-    - Go to the OIM app to create your own Webspace and more
+    - Go to the IThreeM app to create your own Webspace and more
 
 ## Enjoy all the Webspaces in the ICP 3D Metaverse and designing your personal Webspace(s) as part of the community!

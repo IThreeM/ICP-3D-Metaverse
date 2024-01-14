@@ -1,24 +1,24 @@
-# ICP 3D Metaverse (OIM)
+# ICP 3D Metaverse (IThreeM)
 Welcome to the next frontier of the Internet: A decentralized, user-centric, 3D metaverse powered by the Internet Computer.
 
 ## Overview
-The ICP 3D Metaverse (OIM) is not just a vision; it's live and operational on the Internet Computer. Our platform derives its name from the foundational belief that the Internet itself is already a Metaverse. OIM takes this vision further, creating a 3D Web experience where users can build, own, and navigate "Webspaces" — 3D Web pages that render interactive scenes right from their browsers.
+The ICP 3D Metaverse (IThreeM) is not just a vision; it's live and operational on the Internet Computer. Our platform derives its name from the foundational belief that the Internet itself is already a Metaverse. IThreeM takes this vision further, creating a 3D Web experience where users can build, own, and navigate "Webspaces" — 3D Web pages that render interactive scenes right from their browsers.
 
-### Try the OIM App
-[Experience OIM Live!](Not Yet Live)
+### Try the IThreeM App
+[Experience IThreeM Live!](Not Yet Live)
 
 ![Become part of the ICP 3D Metaverse](./resources/media/OpenInternetMetaverse_banner_impression.png)
 
 ### As a user
 If you like, take a look at our [User Guide](./resources/user_guide.md)
 
-![Get Your virtual Island in OIM](./resources/media/OpenInternetMetaverse_Island_impressions.gif)
+![Get Your virtual Island in IThreeM](./resources/media/OpenInternetMetaverse_Island_impressions.gif)
 
 
 ### As a developer
 If you like, take a look at our [Integration Guide](./resources/integration_guide.md)
 
-![Get Your virtual Space Station in OIM](./resources/media/OpenInternetMetaverse_SpaceStation_impressions.gif)
+![Get Your virtual Space Station in IThreeM](./resources/media/OpenInternetMetaverse_SpaceStation_impressions.gif)
 
 ## Features
 - Fully Operational on the Internet Computer: Experience the metaverse today, live on the Internet Computer.
@@ -31,9 +31,9 @@ If you like, take a look at our [Integration Guide](./resources/integration_guid
 
 - Compatibility: Seamlessly integrates with current Web technologies, ensuring developers have a familiar ground.
 
-- Built with A-Frame: OIM leverages A-Frame, a Web framework for building 3D mixed reality experiences.
+- Built with A-Frame: IThreeM leverages A-Frame, a Web framework for building 3D mixed reality experiences.
 
-![Get Your virtual Nature Retreat in OIM](./resources/media/OpenInternetMetaverse_NatureRetreat_impressions.gif)
+![Get Your virtual Nature Retreat in IThreeM](./resources/media/OpenInternetMetaverse_NatureRetreat_impressions.gif)
 
 # Development & Deployment
 ## Running the project locally
@@ -163,6 +163,6 @@ dfx canister --network ic --wallet 3v5vy-2aaaa-aaaai-aapla-cai deposit-cycles 30
 ```
 
 ## Web Space NFT format
-Each space in OIM is stored as an NFT. 
+Each space in IThreeM is stored as an NFT. 
 
 For details, please [find the format here](./resources/WebSpaceNftFormat.md) and [Types.mo in PersonalWebSpace_backend](./src/PersonalWebSpace_backend/Types.mo)

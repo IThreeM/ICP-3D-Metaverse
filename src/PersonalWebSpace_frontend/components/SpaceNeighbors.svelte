@@ -348,7 +348,7 @@
                     {:else}
                         <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">You currently don't own any Spaces. Please create Your first ICP 3D Metaverse Space:</h3>
                         <!-- svelte-ignore a11y-click-events-have-key-events -->
-                        <p class="linkToOim">
+                        <p class="linkToIThreeM">
                             <a href="#create" target="_blank">Create My First Space</a>
                         </p>
                     {/if}
@@ -367,7 +367,7 @@
     .newNeighborUrlInput {
         width: 100%;
     }
-    p.linkToOim {
+    p.linkToIThreeM {
       cursor: pointer;
       width: max-content;
       margin: 1rem auto;

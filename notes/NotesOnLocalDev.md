@@ -5,12 +5,12 @@ This project's dfx.json specifies Bebb Protocol as a remote canister (i.e. can b
 
 - Clone Bebb Protocol's repo: https://github.com/Bebb-Protocol-and-Apps/BebbProtocol
 - And use the latest version (e.g. 0.0.4 as of 2023-07)
-- Go to OIM's codebase (where the file you're reading is in)
-- Start a local replica in this project (OIM)
+- Go to IThreeM's codebase (where the file you're reading is in)
+- Start a local replica in this project (IThreeM)
 - Deploy this project's canisters, PersonalWebSpace_backend and PersonalWebSpace_frontend, see deploy command in README (after these steps the following canister ids should be assigned: PersonalWebSpace_backend canister id: rrkah-fqaaa-aaaaa-aaaaq-cai; PersonalWebSpace_frontend canister id: ryjl3-tyaaa-aaaaa-aaaba-cai)
 - Go to the folder with Bebb Protocol's latest version and run dfx deploy there (this creates the local Bebb Protocol canister on the local replica started earlier which is thus the same replica this project's canisters are running on)
 - Make sure the local canister id for the deployed Bebb Protocol canister is br5f7-7uaaa-aaaaa-qaaca-cai (required by this project to make the calls on the local replica)
-- This project's canisters (OIM) should now successfully call the locally deployed Bebb Protocol canister (i.e. all functionality works, same as on mainnet)
+- This project's canisters (IThreeM) should now successfully call the locally deployed Bebb Protocol canister (i.e. all functionality works, same as on mainnet)
 - Test via npm run vite
 
 # Other notes

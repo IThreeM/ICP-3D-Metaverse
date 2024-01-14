@@ -1194,7 +1194,7 @@
     let menuEntity = document.createElement('a-entity');
 
     // Set properties on the new menu element
-    menuEntity.setAttribute('id', 'OIM-VR-menu');
+    menuEntity.setAttribute('id', 'IThreeM-VR-menu');
     menuEntity.setAttribute('geometry', 'primitive: plane; height: 0.2; width: 0.6');
     menuEntity.setAttribute('material', 'color: #333; opacity: 0.6');
     menuEntity.setAttribute('position', '-1.9 -1 -1.5'); // Position relative to the camera
@@ -1274,12 +1274,12 @@
     let cameraEntity = document.querySelector('a-entity[camera]');
 
     // Check that there isn't a menuEntity already attached to the camera and only append it if not
-    if (!document.getElementById('OIM-VR-menu')) {
+    if (!document.getElementById('IThreeM-VR-menu')) {
       // Append the new menu entity as a child of the camera entity (i.e. it will move with the camera)
       cameraEntity.appendChild(menuEntity);
     } else {
       // Replace the existing menu entity with the new one
-      cameraEntity.replaceChild(menuEntity, document.getElementById('OIM-VR-menu'));
+      cameraEntity.replaceChild(menuEntity, document.getElementById('IThreeM-VR-menu'));
     };
     vrMenuLoaded = true;
   };
@@ -1320,8 +1320,8 @@
     if (!neighborVisualizationImageLoaded) {
       // Create a new a-asset element
       var newAsset = document.createElement('img');
-      newAsset.setAttribute('id', 'OIM__NeighborVisualization__Webportal_');
-      newAsset.setAttribute('src', './OIM_NeighborVisualization_Webportal.png');
+      newAsset.setAttribute('id', 'IThreeM__NeighborVisualization__Webportal_');
+      newAsset.setAttribute('src', './IThreeM_NeighborVisualization_Webportal.png');
       // Append the new a-asset to the a-assets element
       var assets = document.querySelector('a-assets');
       assets.appendChild(newAsset);
@@ -1338,7 +1338,7 @@
         // Create a new entity for the neighbor
         let neighborEntity = document.createElement('a-entity');
         // Set properties on the new neighbor entity
-        neighborEntity.setAttribute('id', `OIM-VR-neighbor-${neighbor.id}`);
+        neighborEntity.setAttribute('id', `IThreeM-VR-neighbor-${neighbor.id}`);
         neighborEntity.setAttribute('web-portal', `url:${neighbor.entitySpecificFields}; text:${neighbor.name[0] || "Neighbor " + neighborIndex};`);
         neighborEntity.setAttribute('position', `${-5 - neighborIndex*3} 1.25 -10`); // Position all Neighbors along one line
         // Add the neighbor entity to the scene
@@ -1403,7 +1403,7 @@
       // Create a new entity for the message
       let messageEntity = document.createElement('a-entity');
       // Set properties on the new message entity
-      messageEntity.setAttribute('id', 'OIM-VR-noNeighborsMessage');
+      messageEntity.setAttribute('id', 'IThreeM-VR-noNeighborsMessage');
       messageEntity.setAttribute('text', `value: This Space doesn't have Neighbors; align: center; color: #000000; width: 5; wrapCount: 20;`);
       messageEntity.setAttribute('scale', '0.5 0.5 0.5');
       messageEntity.setAttribute('position', `-1.8 -0.9 -2`);
@@ -1434,7 +1434,7 @@
   const remove3dNeighborsFromScene = () => {
     // Remove all existing 3D Neighbors from the scene
     const scene = document.querySelector('a-scene');
-    const neighborEntities = scene.querySelectorAll('a-entity[id^="OIM-VR-neighbor-"]');
+    const neighborEntities = scene.querySelectorAll('a-entity[id^="IThreeM-VR-neighbor-"]');
     for (const neighborEntity of neighborEntities) {
       scene.removeChild(neighborEntity);
     };
@@ -1443,13 +1443,13 @@
 
   const hideVRMenu = () => {
     // Hide the VR menu
-    const vrMenu = document.querySelector('#OIM-VR-menu');
+    const vrMenu = document.querySelector('#IThreeM-VR-menu');
     vrMenu.setAttribute('visible', 'false');
   };
 
   const showVRMenu = () => {
     // Show the VR menu
-    const vrMenu = document.querySelector('#OIM-VR-menu');
+    const vrMenu = document.querySelector('#IThreeM-VR-menu');
     vrMenu.setAttribute('visible', 'true');
   };
 
@@ -1553,7 +1553,7 @@
           </p>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <p class="spaceMenuItem" transition:fly={{ y: -15, delay: 50 * 4 }}>
-            <a href="#/" target="_blank">About OIM</a>
+            <a href="#/" target="_blank">About IThreeM</a>
           </p>
           <!-- svelte-ignore a11y-click-events-have-key-events -->
           <p class="spaceMenuItem" on:click={() => logout()} transition:fly={{ y: -15, delay: 50 * 5 }}>
