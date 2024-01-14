@@ -13,7 +13,7 @@
 <footer class='py-12 items-center text-center bg-slate-100' style="background: #fff3e9;" id='about'>
   <div>
     <p class="text-gray-500 mb-2 mt-12"><sup>*</sup>part of <a href='https://u4375-ryaaa-aaaai-acqsq-cai.icp0.io/' target='_blank' rel="noreferrer" class='underline '>Future Web Initiative</a> and hosted on <a href='https://internetcomputer.org/' target='_blank' rel="noreferrer" class='underline'>Internet Computer</a></p>
-    <p class="text-4xl text-gray-700  mt-0 mb-12">Want to be the first to hear about updates in the Open Internet Metaverse?</p>
+    <p class="text-4xl text-gray-700  mt-0 mb-12">Want to be the first to hear about updates in the ICP 3D Metaverse?</p>
 
     <form on:submit={submitForm} class="email-signup-form mb-12">
       <input type="email" id="hero-email" class="email-signup-form-input rounded-l-full" placeholder="&nbsp;&nbsp;&nbsp;Enter your email...">
@@ -47,7 +47,7 @@
       </ul>
     </div>
     <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><p>Powered by <a href='https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/' target='_blank' rel="noreferrer" class='underline'>Open Internet Metaverse</a></span>
+    <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"><p>Powered by <a href='https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/' target='_blank' rel="noreferrer" class='underline'>ICP 3D Metaverse</a></span>
   </div>
 </footer>
 

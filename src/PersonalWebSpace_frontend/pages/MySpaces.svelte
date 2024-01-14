@@ -29,7 +29,7 @@
 <section id="spaces" class="py-7 space-y-6 items-center text-center bg-slate-100">
   <h3 class="text-xl font-bold">My Personal Web Spaces</h3>
   {#if !$store.isAuthed}
-    <p id='spacesSubtext'>Log in to see which Spaces you own in the Open Internet Metaverse.</p>
+    <p id='spacesSubtext'>Log in to see which Spaces you own in the ICP 3D Metaverse.</p>
   {:else}
     <p id='spacesSubtext'>Let's see which Spaces you own...</p>
     {#if !hasLoadedSpaces}

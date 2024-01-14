@@ -75,16 +75,16 @@
                 settings: [],
                 entityType: { 'Resource' : { 'Web' : null } },
                 name: [],
-                description: [`Created as a Space Neighbor in the Open Internet Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
-                keywords: [["Space Neighbor", "Open Internet Metaverse", "Virtual Neighborhood"]] as [Array<string>],
+                description: [`Created as a Space Neighbor in the ICP 3D Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
+                keywords: [["Space Neighbor", "ICP 3D Metaverse", "Virtual Neighborhood"]] as [Array<string>],
                 entitySpecificFields: externalId,
             };
 
             const bridgeEntityInitiationObject : BridgeInitiationObject = {
                 settings: [],
                 name: [],
-                description: [`Created to connect two Spaces as Neighbors in the Open Internet Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
-                keywords: [["Space Neighbors", "Open Internet Metaverse", "Virtual Neighborhood"]] as [Array<string>],
+                description: [`Created to connect two Spaces as Neighbors in the ICP 3D Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
+                keywords: [["Space Neighbors", "ICP 3D Metaverse", "Virtual Neighborhood"]] as [Array<string>],
                 entitySpecificFields: [],
                 bridgeType: { 'IsRelatedto' : null },
                 fromEntityId: spaceEntityId,
@@ -328,7 +328,7 @@
                 {/if}
             {/if}
             {#if successfullyAddedNeighbor}
-                <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">Success: You've got a new Virtual Neighbor in the Open Internet Metaverse!</h3>
+                <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">Success: You've got a new Virtual Neighbor in the ICP 3D Metaverse!</h3>
             {:else if errorAddingNeighbor}
                 <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">Unlucky, this didn't work. Please give it another shot.</h3>
             {/if}
@@ -346,7 +346,7 @@
                         <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">These are Your Spaces. Please select which one to link to this Space:</h3>
                         <UserSpaces spaces={loadedVisitorSpaces} entityIdToLinkTo={extractSpaceEntityId()} />
                     {:else}
-                        <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">You currently don't own any Spaces. Please create Your first Open Internet Metaverse Space:</h3>
+                        <h3 class="py-4 items-center leading-8 text-center text-xl font-bold">You currently don't own any Spaces. Please create Your first ICP 3D Metaverse Space:</h3>
                         <!-- svelte-ignore a11y-click-events-have-key-events -->
                         <p class="linkToOim">
                             <a href="#create" target="_blank">Create My First Space</a>

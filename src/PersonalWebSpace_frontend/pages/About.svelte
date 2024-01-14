@@ -7,20 +7,20 @@
 
 <!-- Main Hero Section -->
 <div class="intro-hero-section">
-  <img src="./FutureWebInitiative_OpenInternetMetaverse_banner.png" alt="Open Internet Metaverse banner" class="intro-hero-background-image">
+  <img src="./FutureWebInitiative_OpenInternetMetaverse_banner.png" alt="ICP 3D Metaverse banner" class="intro-hero-background-image">
   <div class="intro-hero-overlay">
-    <h1>Discover Your Space in the Open Internet Metaverse</h1>
+    <h1>Discover Your Space in the ICP 3D Metaverse</h1>
     <p class="intro-lead-text">Experience an open, decentralized, 3D internet where you own your virtual home.</p>
   </div>
 </div>
 
-<!-- Detailed Information about Open Internet Metaverse -->
+<!-- Detailed Information about ICP 3D Metaverse -->
 <section id="oim-detail" class="intro-section-container intro-bg-alternate">
-  <h3 class="intro-section-header">The Vision of the Open Internet Metaverse</h3>
-  <img src="./FutureWebInitiative_OpenInternetMetaverse_img.png" alt="The Vision of the Open Internet Metaverse" class="intro-detail-image">
+  <h3 class="intro-section-header">The Vision of the ICP 3D Metaverse</h3>
+  <img src="./FutureWebInitiative_OpenInternetMetaverse_img.png" alt="The Vision of the ICP 3D Metaverse" class="intro-detail-image">
   
   <p class="intro-section-text">
-    The Open Internet Metaverse is not just an alternate reality; it's an extension of the existing Internet. Our aim is to enhance digital interactions, providing users with the power to create their own 3D spaces as easily as creating a Webpage.
+    The ICP 3D Metaverse is not just an alternate reality; it's an extension of the existing Internet. Our aim is to enhance digital interactions, providing users with the power to create their own 3D spaces as easily as creating a Webpage.
   </p>
 
   <p class="intro-section-text">
@@ -28,7 +28,7 @@
   </p>
 
   <p class="intro-section-text">
-    Our mission is to reshape the way people interact online, by merging physical and virtual realities into a unified, interconnected ecosystem. Within the Open Internet Metaverse, you're not just a visitor; you're a creator, an explorer, and a stakeholder in this new digital frontier.
+    Our mission is to reshape the way people interact online, by merging physical and virtual realities into a unified, interconnected ecosystem. Within the ICP 3D Metaverse, you're not just a visitor; you're a creator, an explorer, and a stakeholder in this new digital frontier.
   </p>
 </section>
 

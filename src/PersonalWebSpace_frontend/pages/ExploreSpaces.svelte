@@ -68,7 +68,7 @@
 <section id="spaces" class="py-7 space-y-3 items-center text-center bg-slate-100">
   <h3 class="text-xl font-bold">Explore Web Spaces</h3>
   {#if loading}
-    <p id='spacesSubtext'>Searching the Open Internet Metaverse for a few random Spaces to show you...</p>
+    <p id='spacesSubtext'>Searching the ICP 3D Metaverse for a few random Spaces to show you...</p>
     <img class="h-12 mx-auto" src={spinner} alt="loading animation" />
   {:else}
     <div id='randomSpaces' class="space-y-1">

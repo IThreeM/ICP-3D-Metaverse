@@ -54,7 +54,7 @@ if (process.env.DFX_NETWORK === "ic") {
 };
 
 let authClient : AuthClient;
-const APPLICATION_NAME = "Open Internet Metaverse";
+const APPLICATION_NAME = "ICP 3D Metaverse";
 const APPLICATION_LOGO_URL = "https://vdfyi-uaaaa-aaaai-acptq-cai.ic0.app/faviconFutureWebInitiative.ico";
 //"https%3A%2F%2Fx6occ%2Dbiaaa%2Daaaai%2Dacqzq%2Dcai.icp0.io%2Ffavicon.ico"
 //"https%3A%2F%2Fx6occ-biaaa-aaaai-acqzq-cai.icp0.io%2FFutureWebInitiative%5Fimg.png";

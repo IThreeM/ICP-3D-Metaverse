@@ -48,8 +48,8 @@
       const bridgeEntityInitiationObject : BridgeInitiationObject = {
         settings: [],
         name: [],
-        description: [`Created to connect two Spaces as Neighbors in the Open Internet Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
-        keywords: [["Space Neighbors", "Open Internet Metaverse", "Virtual Neighborhood"]] as [Array<string>],
+        description: [`Created to connect two Spaces as Neighbors in the ICP 3D Metaverse at https://${PersonalWebSpace_frontend_canister_id}${appDomain}/`] as [string],
+        keywords: [["Space Neighbors", "ICP 3D Metaverse", "Virtual Neighborhood"]] as [Array<string>],
         entitySpecificFields: [],
         bridgeType: { 'IsRelatedto' : null },
         fromEntityId: spaceEntityId,

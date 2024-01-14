@@ -164,7 +164,7 @@
           entityType: { 'Resource' : { 'Web' : null } },
           name: ["Personal Web Space"],
           description: ["Flaming Hot Personal Web Space"],
-          keywords: [["NFT", "Space", "Open Internet Metaverse", "heeyah"]] as [Array<string>],
+          keywords: [["NFT", "Space", "ICP 3D Metaverse", "heeyah"]] as [Array<string>],
           entitySpecificFields: [externalId],
         };
         const spaceEntityIdResponse = await $store.protocolActor.create_entity(entityInitiationObject);

@@ -1,10 +1,10 @@
-# Open Internet Metaverse User Guide
+# ICP 3D Metaverse User Guide
 
 ## Thank you for using our app!
 
 ## What can you do with it?
 ### Before you log in
-- Get a quick introduction to the Open Internet Metaverse (OIM) app on the Landing page
+- Get a quick introduction to the ICP 3D Metaverse (OIM) app on the Landing page
 - Explore a few random Webspaces (3D Webpages) owned by OIM users on the “Explore” tab. If you like, you can also visit them (in a new tab) to get a better impression of what a Webspace is and to discover what the user displays in that particular one.
 - Play around with different Webspaces you could create on the “Create” tab
   - Note that you need to log in to actually create the Webspace
@@ -82,4 +82,4 @@
     - See the Webspace’s info (including its name, description and also some info about its owner)
     - Go to the OIM app to create your own Webspace and more
 
-## Enjoy all the Webspaces in the Open Internet Metaverse and designing your personal Webspace(s) as part of the community!
+## Enjoy all the Webspaces in the ICP 3D Metaverse and designing your personal Webspace(s) as part of the community!
